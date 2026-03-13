@@ -9,5 +9,7 @@ func Add(a, b int) int {
 }
 
 func main() {
+	screen := Add(2, 2)
 	fmt.Println("Я домашка")
+	fmt.Printf("%d", screen)
 }
